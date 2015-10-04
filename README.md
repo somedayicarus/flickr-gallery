@@ -1,3 +1,3 @@
-# Instagram Gallery 
+# Flickr Gallery 
 
-Simple Image gallery with lightbox using the Instagram API + JavaScript
+Simple Flickr gallery with lightbox
