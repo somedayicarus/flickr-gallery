@@ -20,7 +20,7 @@ xhr.onreadystatechange = function () {
             var title = photoSet[i].title;
             var alt = photoSet[i].description._content;
             count ++;
-            photoDiv += '<div class="flex-item"><a href="#image-' + count + '"><img alt="' + alt + '"src="' + URL + '"></a><div class="overlay" id="image-' + count + '"><img alt="' + alt + '"src="' + URL + '"><div><h2>' + title + '</h2><a href="#image-' + (count - 1) + '"><i class="fa-3x fa fa-caret-left"></i></a><a href="#image-' + (count + 1) + '"><i class="fa-3x fa fa-caret-right"></i></a></div><a href="#" class="lb-close"><i class="fa fa-close fa-lg"></i></a></div></div>';
+            photoDiv += '<div class="flex-item"><a href="#image-' + count + '"><img alt="' + alt + '"src="' + URL + '"></a><div class="overlay" id="image-' + count + '"><a href="#" class="lb-close"><i class="fa fa-close fa-lg"></i></a><img alt="' + alt + '"src="' + URL + '"><div><h2>' + title + '</h2><a href="#image-' + (count - 1) + '"><i class="fa-3x fa fa-caret-left"></i></a><a href="#image-' + (count + 1) + '"><i class="fa-3x fa fa-caret-right"></i></a></div></div></div>';
 	}
         //add photoDiv to page
 	document.getElementById('photos').innerHTML = photoDiv + '</div>';
