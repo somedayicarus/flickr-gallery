@@ -48,7 +48,7 @@ div.overlay:target {
     	width:70%;
     	max-width:600px;
     	min-width:350px;
-    	margin-top:60px;
+    	margin-top:15px;
     	display:initial;
 }
 i.fa-caret-left {
