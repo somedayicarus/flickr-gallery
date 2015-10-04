@@ -1,3 +1,4 @@
+'use strict';
 //global variables
 var key = '7b2816bfbe36946e5509027ae6833eda';
 var userID = '136638860%40N02';
