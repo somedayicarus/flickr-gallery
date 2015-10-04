@@ -66,8 +66,8 @@ i.fa-caret-right {
     	font-size:60px;
 }
 a.lb-close {
-    	position:relative;
-    	bottom:760px;
+    	margin-top:40px;
+    	display:block;
     	font-size:18px;
     	color:#fff;
     	opacity:.3;
@@ -79,4 +79,15 @@ a.lb-close:hover {
 a img {
     	width:200px;
     	height:200px;
+}
+
+/**** move nav for smaller screen sizes  ****/
+@media (max-width: 840px) {
+    	i.fa-caret-left, i.fa-caret-right {
+        	position:initial;
+        	font-size:45px;
+    	}
+    	i.fa-caret-left {
+        	margin-right:10px;
+    	}
 }
